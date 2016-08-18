@@ -23,7 +23,7 @@
     "url": "https://github.com/RealFighter64/pizzainmytummy/issues"
   },
   "homepage": "https://github.com/RealFighter64/pizzainmytummy#readme",
-  "devDependencies": {
+  "dependencies": {
     "concurrently": "^2.2.0",
     "lite-server": "^2.2.2",
     "mongojs": "^2.4.0",
