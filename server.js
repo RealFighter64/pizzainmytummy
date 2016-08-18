@@ -42,8 +42,7 @@ server.post('/api/newGroup', function(req, res, next) {
 });
 
 server.post('/api/addItem/:id', function(req, res, next) {
-    var item = req.params;
-    item.toppings = req.params.toppings.split(',');
+    var item = JSON.parse(decodeURIComponent(req.params.item));
     var id = req.params.id;
     console.log(id);
     db.groups.update({
