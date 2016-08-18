@@ -1,0 +1,34 @@
+{
+  "name": "pizzainmytummy",
+  "version": "1.0.0",
+  "description": "The number one pizza ordering app.",
+  "keywords": [
+    "pizza",
+    "order",
+    "app"
+  ],
+  "main": "server.js",
+  "scripts": {
+    "server-dev": "nodemon server.js",
+    "server": "node server.js",
+    "client": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RealFighter64/pizzainmytummy.git"
+  },
+  "author": "William Gooch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RealFighter64/pizzainmytummy/issues"
+  },
+  "homepage": "https://github.com/RealFighter64/pizzainmytummy#readme",
+  "devDependencies": {
+    "concurrently": "^2.2.0",
+    "lite-server": "^2.2.2",
+    "mongojs": "^2.4.0",
+    "nodemon": "^1.10.0",
+    "request": "^2.74.0",
+    "restify": "^4.1.1"
+  }
+}
